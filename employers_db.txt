@@ -1,14 +1,14 @@
 create table if not exists employer(
-  		employer_id serial primary key,  
-  		name varchar(100) not null );
+  		id serial primary key,  
+  		name varchar(100) not null);
 
 create table if not exists department(
-  		department_id serial primary key,  
-  		name varchar(100) not null unique,
-		boss_id integer references employer(employer_id);		
+  		id serial primary key,  
+  		name varchar(100) not null unique);		
 
 create table if not exists employers(
         id serial primary key, 
-  		employer_id integer references employer(employer_id);
-  		department_id integer references department(department_id);	
+  		employer_id integer references employer(id),
+  		department_id integer references department(id),
+        boss_id integer references employer(id);	
 
