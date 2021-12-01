@@ -1,209 +1,209 @@
 
 =========== genre =============================
 
-insert into genre (name) values ('Джаз');
-insert into genre (name) values ('Кантри');
-insert into genre (name) values ('Рок');
-insert into genre (name) values ('Регги');
-insert into genre (name) values ('Хип-хоп');
-insert into genre (name) values ('Поп');
+INSERT INTO genre (name) VALUES ('Джаз');
+INSERT INTO genre (name) VALUES ('Кантри');
+INSERT INTO genre (name) VALUES ('Рок');
+INSERT INTO genre (name) VALUES ('Регги');
+INSERT INTO genre (name) VALUES ('Хип-хоп');
+INSERT INTO genre (name) VALUES ('Поп');
 
 =========== singer =============================
 
-insert into singer (name, pseudonym) values ('Альберт Эйлер','Альберт Эйлер');
-insert into singer (name, pseudonym) values ('Аллан Холдсуорт','Аллан Холдсуорт');
-insert into singer (name, pseudonym) values ('Блу Митчелл','Блу Митчелл');
+INSERT INTO singer (name, pseudonym) VALUES ('Альберт Эйлер','Альберт Эйлер');
+INSERT INTO singer (name, pseudonym) VALUES ('Аллан Холдсуорт','Аллан Холдсуорт');
+INSERT INTO singer (name, pseudonym) VALUES ('Блу Митчелл','Блу Митчелл');
 
 # кантри исполнители
-insert into singer (name, pseudonym) values ('Джонни Кэш','Джонни Кэш');
-insert into singer (name, pseudonym) values ('Джордж Харви Стрейт','Джордж Харви Стрейт');
-insert into singer (name, pseudonym) values ('The Rolling Stones','The Rolling Stones');
+INSERT INTO singer (name, pseudonym) VALUES ('Джонни Кэш','Джонни Кэш');
+INSERT INTO singer (name, pseudonym) VALUES ('Джордж Харви Стрейт','Джордж Харви Стрейт');
+INSERT INTO singer (name, pseudonym) VALUES ('The Rolling Stones','The Rolling Stones');
 
 # Рок исполнители
-insert into singer (name, pseudonym) values ('Nirvana','Nirvana');
-insert into singer (name, pseudonym) values ('Курт Кобейн','Курт Кобейн');
-insert into singer (name, pseudonym) values ('Джордж Джонс','Джордж Джонс');
+INSERT INTO singer (name, pseudonym) VALUES ('Nirvana','Nirvana');
+INSERT INTO singer (name, pseudonym) VALUES ('Курт Кобейн','Курт Кобейн');
+INSERT INTO singer (name, pseudonym) VALUES ('Джордж Джонс','Джордж Джонс');
 
 # Регги исполнители
-insert into singer (name, pseudonym) values ('Bob Marley','Bob Marley');
-insert into singer (name, pseudonym) values ('Sublime','Sublime');
-insert into singer (name, pseudonym) values ('Sean Paul','Sean Paul');
+INSERT INTO singer (name, pseudonym) VALUES ('Bob Marley','Bob Marley');
+INSERT INTO singer (name, pseudonym) VALUES ('Sublime','Sublime');
+INSERT INTO singer (name, pseudonym) VALUES ('Sean Paul','Sean Paul');
 
 # Хип-хоп исполнители
-insert into singer (name, pseudonym) values ('Kanye West','Kanye West');
-insert into singer (name, pseudonym) values ('Gorillaz','Gorillaz');
-insert into singer (name, pseudonym) values ('Black Eyed Peas','Black Eyed Peas');
+INSERT INTO singer (name, pseudonym) VALUES ('Kanye West','Kanye West');
+INSERT INTO singer (name, pseudonym) VALUES ('Gorillaz','Gorillaz');
+INSERT INTO singer (name, pseudonym) VALUES ('Black Eyed Peas','Black Eyed Peas');
 
 # Поп исполнители
-insert into singer (name, pseudonym) values ('Michael Jackson','Michael Jackson');
-insert into singer (name, pseudonym) values ('Madonna','Madonna');
-insert into singer (name, pseudonym) values ('The Beatles','The Beatles');
+INSERT INTO singer (name, pseudonym) VALUES ('Michael Jackson','Michael Jackson');
+INSERT INTO singer (name, pseudonym) VALUES ('Madonna','Madonna');
+INSERT INTO singer (name, pseudonym) VALUES ('The Beatles','The Beatles');
 
 
 =========== singer_genre =============================
 
-insert into singer_genre (singer_id, genre_id) values (1, 1);
-insert into singer_genre (singer_id, genre_id) values (2, 1);
-insert into singer_genre (singer_id, genre_id) values (3, 1);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (1, 1);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (2, 1);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (3, 1);
 
-insert into singer_genre (singer_id, genre_id) values (4, 2);
-insert into singer_genre (singer_id, genre_id) values (5, 2);
-insert into singer_genre (singer_id, genre_id) values (6, 2);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (4, 2);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (5, 2);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (6, 2);
 
-insert into singer_genre (singer_id, genre_id) values (7, 3);
-insert into singer_genre (singer_id, genre_id) values (8, 3);
-insert into singer_genre (singer_id, genre_id) values (9, 3);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (7, 3);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (8, 3);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (9, 3);
 
-insert into singer_genre (singer_id, genre_id) values (10, 4);
-insert into singer_genre (singer_id, genre_id) values (11, 4);
-insert into singer_genre (singer_id, genre_id) values (12, 4);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (10, 4);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (11, 4);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (12, 4);
 
-insert into singer_genre (singer_id, genre_id) values (13, 5);
-insert into singer_genre (singer_id, genre_id) values (14, 5);
-insert into singer_genre (singer_id, genre_id) values (15, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (13, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (14, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (15, 5);
 
-insert into singer_genre (singer_id, genre_id) values (16, 5);
-insert into singer_genre (singer_id, genre_id) values (17, 5);
-insert into singer_genre (singer_id, genre_id) values (18, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (16, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (17, 5);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (18, 5);
 
-insert into singer_genre (singer_id, genre_id) values (19, 6);
-insert into singer_genre (singer_id, genre_id) values (20, 6);
-insert into singer_genre (singer_id, genre_id) values (21, 6);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (19, 6);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (20, 6);
+INSERT INTO singer_genre (singer_id, genre_id) VALUES (21, 6);
 
 
 =========== album =============================
 
-insert into album (name, year) values ('album 1', 2012);
-insert into album (name, year) values ('album 2', 2013);
-insert into album (name, year) values ('album 3', 2012);
-insert into album (name, year) values ('album 4', 2014);
-insert into album (name, year) values ('album 5', 2012);
-insert into album (name, year) values ('album 6', 2015);
-insert into album (name, year) values ('album 7', 2015);
-insert into album (name, year) values ('album 8', 2016);
-insert into album (name, year) values ('album 9', 2012);
-insert into album (name, year) values ('album 10', 2018);
-insert into album (name, year) values ('album 11', 2018);
-insert into album (name, year) values ('album 12', 2018);
-insert into album (name, year) values ('album 13', 2018);
-insert into album (name, year) values ('album 14', 2019);
-insert into album (name, year) values ('album 15', 2020);
-insert into album (name, year) values ('album 16', 2021);
+INSERT INTO album (name, year) VALUES ('album 1', 2012);
+INSERT INTO album (name, year) VALUES ('album 2', 2013);
+INSERT INTO album (name, year) VALUES ('album 3', 2012);
+INSERT INTO album (name, year) VALUES ('album 4', 2014);
+INSERT INTO album (name, year) VALUES ('album 5', 2012);
+INSERT INTO album (name, year) VALUES ('album 6', 2015);
+INSERT INTO album (name, year) VALUES ('album 7', 2015);
+INSERT INTO album (name, year) VALUES ('album 8', 2016);
+INSERT INTO album (name, year) VALUES ('album 9', 2012);
+INSERT INTO album (name, year) VALUES ('album 10', 2018);
+INSERT INTO album (name, year) VALUES ('album 11', 2018);
+INSERT INTO album (name, year) VALUES ('album 12', 2018);
+INSERT INTO album (name, year) VALUES ('album 13', 2018);
+INSERT INTO album (name, year) VALUES ('album 14', 2019);
+INSERT INTO album (name, year) VALUES ('album 15', 2020);
+INSERT INTO album (name, year) VALUES ('album 16', 2021);
 
 
 =========== singer_albums =============================
 	
-insert into singer_albums (album_id, singer_id) values (1, 1);
-insert into singer_albums (album_id, singer_id) values (1, 2);
-insert into singer_albums (album_id, singer_id) values (1, 3);
-insert into singer_albums (album_id, singer_id) values (2, 2);
-insert into singer_albums (album_id, singer_id) values (2, 3);
-insert into singer_albums (album_id, singer_id) values (1, 4);
-insert into singer_albums (album_id, singer_id) values (3, 4);
-insert into singer_albums (album_id, singer_id) values (4, 4);
-insert into singer_albums (album_id, singer_id) values (5, 5);
-insert into singer_albums (album_id, singer_id) values (6, 6);
-insert into singer_albums (album_id, singer_id) values (7, 7);
-insert into singer_albums (album_id, singer_id) values (8, 8);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (1, 1);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (1, 2);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (1, 3);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (2, 2);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (2, 3);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (1, 4);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (3, 4);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (4, 4);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (5, 5);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (6, 6);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (7, 7);
+INSERT INTO singer_albums (album_id, singer_id) VALUES (8, 8);
 
 
 =========== track =============================     
 
-insert into track (album_id, name, duration) values (1, 'track 1', 4);
-insert into track (album_id, name, duration) values (1, 'track 2', 4);
-insert into track (album_id, name, duration) values (1, 'track 3', 4);
-insert into track (album_id, name, duration) values (1, 'track 4', 4);
-insert into track (album_id, name, duration) values (1, 'track 5', 4);
-insert into track (album_id, name, duration) values (2, 'track 200', 4);
-insert into track (album_id, name, duration) values (2, 'track 201', 4);
-insert into track (album_id, name, duration) values (2, 'track 202', 4);
-insert into track (album_id, name, duration) values (2, 'track 203', 4);
-insert into track (album_id, name, duration) values (3, 'track 301', 4);
-insert into track (album_id, name, duration) values (3, 'track 302', 4);
-insert into track (album_id, name, duration) values (3, 'track 303', 4);
-insert into track (album_id, name, duration) values (4, 'track 401', 4);
-insert into track (album_id, name, duration) values (4, 'track 402', 4);
-insert into track (album_id, name, duration) values (4, 'track 403', 4);
-insert into track (album_id, name, duration) values (4, 'track 404', 4);
-insert into track (album_id, name, duration) values (5, 'track 501', 4);
-insert into track (album_id, name, duration) values (5, 'track 502', 4);
-insert into track (album_id, name, duration) values (5, 'track 503', 4);
-insert into track (album_id, name, duration) values (5, 'track 504', 4);
-insert into track (album_id, name, duration) values (6, 'track 601', 4);
-insert into track (album_id, name, duration) values (6, 'track 602', 4);
-insert into track (album_id, name, duration) values (7, 'track 701', 4);
-insert into track (album_id, name, duration) values (7, 'track 702', 4);
-insert into track (album_id, name, duration) values (8, 'track 801', 4);
-insert into track (album_id, name, duration) values (8, 'track 802', 4);
-insert into track (album_id, name, duration) values (9, 'track 901', 4);
-insert into track (album_id, name, duration) values (9, 'track 902', 4);
-insert into track (album_id, name, duration) values (10, 'track 101', 4);
-insert into track (album_id, name, duration) values (10, 'track 102', 4);
-insert into track (album_id, name, duration) values (11, 'track 110', 4);
-insert into track (album_id, name, duration) values (11, 'track 112', 4);
-insert into track (album_id, name, duration) values (12, 'track 120', 4);
-insert into track (album_id, name, duration) values (12, 'track 122', 4);
-insert into track (album_id, name, duration) values (13, 'track 13', 4);
-insert into track (album_id, name, duration) values (13, 'track 1313', 4);
-insert into track (album_id, name, duration) values (14, 'track 14', 4);
-insert into track (album_id, name, duration) values (14, 'track 1414', 4);
-insert into track (album_id, name, duration) values (15, 'track 15', 4);
-insert into track (album_id, name, duration) values (15, 'track 1515', 4);
-insert into track (album_id, name, duration) values (16, 'track 16', 4);
-insert into track (album_id, name, duration) values (16, 'track 1616', 4);
+INSERT INTO track (album_id, name, duration) VALUES (1, 'track 1', 4);
+INSERT INTO track (album_id, name, duration) VALUES (1, 'track 2', 4);
+INSERT INTO track (album_id, name, duration) VALUES (1, 'track 3', 4);
+INSERT INTO track (album_id, name, duration) VALUES (1, 'track 4', 4);
+INSERT INTO track (album_id, name, duration) VALUES (1, 'track 5', 4);
+INSERT INTO track (album_id, name, duration) VALUES (2, 'track 200', 4);
+INSERT INTO track (album_id, name, duration) VALUES (2, 'track 201', 4);
+INSERT INTO track (album_id, name, duration) VALUES (2, 'track 202', 4);
+INSERT INTO track (album_id, name, duration) VALUES (2, 'track 203', 4);
+INSERT INTO track (album_id, name, duration) VALUES (3, 'track 301', 4);
+INSERT INTO track (album_id, name, duration) VALUES (3, 'track 302', 4);
+INSERT INTO track (album_id, name, duration) VALUES (3, 'track 303', 4);
+INSERT INTO track (album_id, name, duration) VALUES (4, 'track 401', 4);
+INSERT INTO track (album_id, name, duration) VALUES (4, 'track 402', 4);
+INSERT INTO track (album_id, name, duration) VALUES (4, 'track 403', 4);
+INSERT INTO track (album_id, name, duration) VALUES (4, 'track 404', 4);
+INSERT INTO track (album_id, name, duration) VALUES (5, 'track 501', 4);
+INSERT INTO track (album_id, name, duration) VALUES (5, 'track 502', 4);
+INSERT INTO track (album_id, name, duration) VALUES (5, 'track 503', 4);
+INSERT INTO track (album_id, name, duration) VALUES (5, 'track 504', 4);
+INSERT INTO track (album_id, name, duration) VALUES (6, 'track 601', 4);
+INSERT INTO track (album_id, name, duration) VALUES (6, 'track 602', 4);
+INSERT INTO track (album_id, name, duration) VALUES (7, 'track 701', 4);
+INSERT INTO track (album_id, name, duration) VALUES (7, 'track 702', 4);
+INSERT INTO track (album_id, name, duration) VALUES (8, 'track 801', 4);
+INSERT INTO track (album_id, name, duration) VALUES (8, 'track 802', 4);
+INSERT INTO track (album_id, name, duration) VALUES (9, 'track 901', 4);
+INSERT INTO track (album_id, name, duration) VALUES (9, 'track 902', 4);
+INSERT INTO track (album_id, name, duration) VALUES (10, 'track 101', 4);
+INSERT INTO track (album_id, name, duration) VALUES (10, 'track 102', 4);
+INSERT INTO track (album_id, name, duration) VALUES (11, 'track 110', 4);
+INSERT INTO track (album_id, name, duration) VALUES (11, 'track 112', 4);
+INSERT INTO track (album_id, name, duration) VALUES (12, 'track 120', 4);
+INSERT INTO track (album_id, name, duration) VALUES (12, 'track 122', 4);
+INSERT INTO track (album_id, name, duration) VALUES (13, 'track 13', 4);
+INSERT INTO track (album_id, name, duration) VALUES (13, 'track 1313', 4);
+INSERT INTO track (album_id, name, duration) VALUES (14, 'track 14', 4);
+INSERT INTO track (album_id, name, duration) VALUES (14, 'track 1414', 4);
+INSERT INTO track (album_id, name, duration) VALUES (15, 'track 15', 4);
+INSERT INTO track (album_id, name, duration) VALUES (15, 'track 1515', 4);
+INSERT INTO track (album_id, name, duration) VALUES (16, 'track 16', 4);
+INSERT INTO track (album_id, name, duration) VALUES (16, 'track 1616', 4);
 
 =========== collection ============================= 
-insert into collection (name, year) values ('collection 1', 2021);
-insert into collection (name, year) values ('collection 2', 2020);
-insert into collection (name, year) values ('collection 3', 2018);
-insert into collection (name, year) values ('collection 4', 2021);
-insert into collection (name, year) values ('collection 5', 2019);
-insert into collection (name, year) values ('collection 6', 2018);
-insert into collection (name, year) values ('collection 7', 2019);
-insert into collection (name, year) values ('collection 8', 2020);
-insert into collection (name, year) values ('collection 9', 2018);
-insert into collection (name, year) values ('collection 10', 2020);
-insert into collection (name, year) values ('collection 11', 2018);
-insert into collection (name, year) values ('collection 12', 2019);
+INSERT INTO collection (name, year) VALUES ('collection 1', 2021);
+INSERT INTO collection (name, year) VALUES ('collection 2', 2020);
+INSERT INTO collection (name, year) VALUES ('collection 3', 2018);
+INSERT INTO collection (name, year) VALUES ('collection 4', 2021);
+INSERT INTO collection (name, year) VALUES ('collection 5', 2019);
+INSERT INTO collection (name, year) VALUES ('collection 6', 2018);
+INSERT INTO collection (name, year) VALUES ('collection 7', 2019);
+INSERT INTO collection (name, year) VALUES ('collection 8', 2020);
+INSERT INTO collection (name, year) VALUES ('collection 9', 2018);
+INSERT INTO collection (name, year) VALUES ('collection 10', 2020);
+INSERT INTO collection (name, year) VALUES ('collection 11', 2018);
+INSERT INTO collection (name, year) VALUES ('collection 12', 2019);
 
 =========== track_collection ============================= 
 
 
-insert into track_collection (collection_id, track_id) values (1, 1);
-insert into track_collection (collection_id, track_id) values (1, 2);
-insert into track_collection (collection_id, track_id) values (1, 3);
-insert into track_collection (collection_id, track_id) values (2, 4);
-insert into track_collection (collection_id, track_id) values (2, 5);
-insert into track_collection (collection_id, track_id) values (2, 6);
-insert into track_collection (collection_id, track_id) values (3, 7);
-insert into track_collection (collection_id, track_id) values (3, 8);
-insert into track_collection (collection_id, track_id) values (3, 9);
-insert into track_collection (collection_id, track_id) values (4, 10);
-insert into track_collection (collection_id, track_id) values (4, 11);
-insert into track_collection (collection_id, track_id) values (4, 12);
-insert into track_collection (collection_id, track_id) values (5, 13);
-insert into track_collection (collection_id, track_id) values (5, 14);
-insert into track_collection (collection_id, track_id) values (5, 15);
-insert into track_collection (collection_id, track_id) values (6, 16);
-insert into track_collection (collection_id, track_id) values (6, 17);
-insert into track_collection (collection_id, track_id) values (6, 18);
-insert into track_collection (collection_id, track_id) values (7, 19);
-insert into track_collection (collection_id, track_id) values (7, 20);
-insert into track_collection (collection_id, track_id) values (7, 21);
-insert into track_collection (collection_id, track_id) values (8, 22);
-insert into track_collection (collection_id, track_id) values (8, 23);
-insert into track_collection (collection_id, track_id) values (8, 24);
-insert into track_collection (collection_id, track_id) values (9, 25);
-insert into track_collection (collection_id, track_id) values (9, 26);
-insert into track_collection (collection_id, track_id) values (9, 27);
-insert into track_collection (collection_id, track_id) values (10, 28);
-insert into track_collection (collection_id, track_id) values (10, 29);
-insert into track_collection (collection_id, track_id) values (10, 30);
-insert into track_collection (collection_id, track_id) values (11, 31);
-insert into track_collection (collection_id, track_id) values (11, 32);
-insert into track_collection (collection_id, track_id) values (11, 33); 
-insert into track_collection (collection_id, track_id) values (12, 34);
-insert into track_collection (collection_id, track_id) values (12, 35);
-insert into track_collection (collection_id, track_id) values (12, 36);
+INSERT INTO track_collection (collection_id, track_id) VALUES (1, 1);
+INSERT INTO track_collection (collection_id, track_id) VALUES (1, 2);
+INSERT INTO track_collection (collection_id, track_id) VALUES (1, 3);
+INSERT INTO track_collection (collection_id, track_id) VALUES (2, 4);
+INSERT INTO track_collection (collection_id, track_id) VALUES (2, 5);
+INSERT INTO track_collection (collection_id, track_id) VALUES (2, 6);
+INSERT INTO track_collection (collection_id, track_id) VALUES (3, 7);
+INSERT INTO track_collection (collection_id, track_id) VALUES (3, 8);
+INSERT INTO track_collection (collection_id, track_id) VALUES (3, 9);
+INSERT INTO track_collection (collection_id, track_id) VALUES (4, 10);
+INSERT INTO track_collection (collection_id, track_id) VALUES (4, 11);
+INSERT INTO track_collection (collection_id, track_id) VALUES (4, 12);
+INSERT INTO track_collection (collection_id, track_id) VALUES (5, 13);
+INSERT INTO track_collection (collection_id, track_id) VALUES (5, 14);
+INSERT INTO track_collection (collection_id, track_id) VALUES (5, 15);
+INSERT INTO track_collection (collection_id, track_id) VALUES (6, 16);
+INSERT INTO track_collection (collection_id, track_id) VALUES (6, 17);
+INSERT INTO track_collection (collection_id, track_id) VALUES (6, 18);
+INSERT INTO track_collection (collection_id, track_id) VALUES (7, 19);
+INSERT INTO track_collection (collection_id, track_id) VALUES (7, 20);
+INSERT INTO track_collection (collection_id, track_id) VALUES (7, 21);
+INSERT INTO track_collection (collection_id, track_id) VALUES (8, 22);
+INSERT INTO track_collection (collection_id, track_id) VALUES (8, 23);
+INSERT INTO track_collection (collection_id, track_id) VALUES (8, 24);
+INSERT INTO track_collection (collection_id, track_id) VALUES (9, 25);
+INSERT INTO track_collection (collection_id, track_id) VALUES (9, 26);
+INSERT INTO track_collection (collection_id, track_id) VALUES (9, 27);
+INSERT INTO track_collection (collection_id, track_id) VALUES (10, 28);
+INSERT INTO track_collection (collection_id, track_id) VALUES (10, 29);
+INSERT INTO track_collection (collection_id, track_id) VALUES (10, 30);
+INSERT INTO track_collection (collection_id, track_id) VALUES (11, 31);
+INSERT INTO track_collection (collection_id, track_id) VALUES (11, 32);
+INSERT INTO track_collection (collection_id, track_id) VALUES (11, 33); 
+INSERT INTO track_collection (collection_id, track_id) VALUES (12, 34);
+INSERT INTO track_collection (collection_id, track_id) VALUES (12, 35);
+INSERT INTO track_collection (collection_id, track_id) VALUES (12, 36);
 
 
